@@ -11,8 +11,13 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.ProvideApplicationPartFactoryAttribute("Microsoft.AspNetCore.Mvc.ApplicationParts.ConsolidatedAssemblyApplicationPartFact" +
-    "ory, Microsoft.AspNetCore.Mvc.Razor")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("HelperStockBeta.API")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("HelperStockBeta.API")]
+[assembly: System.Reflection.AssemblyTitleAttribute("HelperStockBeta.API")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
