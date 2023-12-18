@@ -15,6 +15,8 @@ namespace HelperStockBeta.Infra.Data.EntityConfiguration
 
             builder.HasOne(e => e.Category).WithMany(e => e.Products)
                 .HasForeignKey(e => e.CategoryId);
+            builder.HasData(
+                new Product("X", "Produto do Tipo X", 5, 1, "https://controlefinanceiro.granatum.com.br/wp-content/uploads/2022/09/header-prec%CC%A7ocomposic%CC%A7a%CC%83o.png"));
         }
     }
 }
